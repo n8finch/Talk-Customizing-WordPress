@@ -3,6 +3,14 @@
 ### Understanding Where, Why, and How to Make Your Site Unique
 
 
+WP for ~6 years, ~5 years full-time
+The Digital Ring, toptal, Codeable, and other clients for fun and profit
+Currently residing in Madison
+Texas >> Kansas >> Spain ( a little time in Morocco) >> France >> Illinois >> S. Korea >> and now Madison
+“I’d be a professional student if I could…”
+Married w/ 1.5 year old daughter
+
+
 ## 0. The Questions
 
 - Where do I make changes to my theme (CSS or PHP)?
