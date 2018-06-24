@@ -87,8 +87,8 @@ Where do these things live?
 
 **Aside**
 
-- Your customizations should always be made in the `wp-content` folder. This does not cet updated on WP Core updates (I'm pretty sure about this).
-- Unless you've got a good reason to put things somwhere else, do not put things in the root folder (use the wp-content "namespace"). Think of your permalink structure.
+- Your customizations should always be made in the `wp-content` folder. This does not get updated on WP Core updates (I'm pretty sure about this).
+- Unless you've got a good reason to put things somewhere else, do not put things in the root folder (use the wp-content "namespace"). Think of your permalink structure.
 - And as always:
 
 > Don't Hack Core!
@@ -110,7 +110,7 @@ Several ways to deal with this:
 - create a plugin and hook into the theme's action hook
 
 
-##2.5 Befor Customizing
+##2.5 Before Customizing
 
 1. Make sure you have a code and databse backup
 2. Work on a Local Environment or Staging Enviornment (Local or VVV)

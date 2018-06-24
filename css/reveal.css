@@ -1405,3 +1405,6 @@ body {
  *********************************************/
 code {
   background-color: teal; }
+
+li.greyed-out {
+  opacity: .4; }

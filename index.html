@@ -71,7 +71,7 @@
 
 
 				<section>
-					<h2>0. The Questions</h2>
+					<h2>The Questions</h2>
 					<ul>
 						<li>Where do I make changes to my theme?</li>
 						<li>Should I just put everything in <code>functions.php</code>?</li>
@@ -94,7 +94,7 @@
 
 
 				<section>
-					<h2>1. The Initial Problem</h2>
+					<h2>I: The Initial Problem</h2>
 					<p>
 						<strong>DEMO</strong>
 					</p>
@@ -122,10 +122,128 @@
 				</section>
 
 				<section>
-					<h2>Touch Optimized</h2>
+					<h2>II: Understanding the Structure and Intent</h2>
 					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+						<blockquote cite="">
+							"Form and Function"
+						</blockquote>
 					</p>
+				</section>
+
+				<section>
+					<h2>Themes Handle <em>Form</em></h2>
+					<p>
+						<ul>
+							<li>CSS</li>
+							<li>Layout</li>
+							<li>Theme supports</li>
+							<li>Post Types (maybe)</li>
+							<li>Whatever is specific to the current layout and style</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Plugins Handle <em>Function</em></h2>
+					<p>
+						<ul>
+							<li>Basics: widgets</li>
+							<li>Custom Fields/Meta Boxes</li>
+							<li>CRM/Marketing</li>
+							<li>E-commerce</li>
+							<li>Memberships</li>
+							<li>Anything that extends what's available "out of the box"</li>
+						</ul>
+					</p>
+				</section>
+
+
+				<section>
+					<h2>WordPress Structure</h2>
+					<h4><em>Where does all this stuff live?</em></h4>
+					<div style="display: flex; justify-content: center;">
+						<div style="max-width: 40%;">
+							<img src="images/wp-content-dir.jpg" alt="">
+						</div>
+						<div class="">
+							<ul>
+								<li>Customizations go in <code>wp-content</code></li>
+								<li>Use the "wp-content/* namespace"</li>
+								<li><strong><em>Don't hack core!</em></strong></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>Let's Build Something!</h2>
+					<h4>A Styled After-Post Box</h4>
+					<img src="http://placehold.it/500x100" alt="">
+					<p>
+						<ul>
+							<li>override and hard code the single.php template file in child theme</li>
+							<li>use an action hook in your theme's function.php file</li>
+							<li>create a customizations plugin</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Before Starting</h2>
+					<p>
+						<ol>
+							<li>Make sure you have a code and databse backup</li>
+							<li>Work on a Local Environment or Staging Enviornment (<a href="https:local.getflywheel.com" target="_blank">Local</a> or <a href="https://varyingvagrantvagrants.org/" target="_blank">VVV</a>)</li>
+							<li>Maybe even look at the <a href="https://pantheon.io/docs/pantheon-workflow/" target="_blank">Pantheon Workflow</a>:</li>
+						</ol>
+						<img src="images/pantheon-workflow.jpg" alt="">
+					</p>
+				</section>
+
+				<section>
+					<h2>III. Making Style or Theme-Based Changes</h2>
+					<p>
+						<ol>
+							<li>Make a Child Theme</li>
+							<li><em>"Are the changes I want to make Form or Function?"</em></li>
+							<li>Add Form changes to theme</li>
+							<li>Use Child Theme's <code>style.css</code></li>
+							<li>Overriding templates</li>
+						</ol>
+					</p>
+				</section>
+
+
+
+
+
+				<section>
+					<h2>Resources and Next Steps</h2>
+					<div style="display: flex; justify-content: space-around; margin-top:5%;">
+						<div style="max-width: 50%">
+							<h4>Local/Staging Dev</h4>
+							<ul>
+								<li><a href="https:local.getflywheel.com" target="_blank">Local</a></li>
+								<li><a href="https://varyingvagrantvagrants.org/" target="_blank">VVV</a></li>
+								<li><a href="https://pantheon.io/docs/pantheon-workflow/" target="_blank">Pantheon Workflow</a></li>
+							</ul>
+						</div>
+
+						<div style="max-width: 40%">
+							<h4>WordPress Codex</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/Child_Themes" target="_blank">Child Themes</a></li>
+								<li><a href="https://codex.wordpress.org/File_Header" target="_blank">Plugin Headers</a></li>
+								<li><a href="https://developer.wordpress.org/reference/functions/add_action/" target="_blank"><code style="color: white;">add_action</code></a></li>
+								<li><a href="https://codex.wordpress.org/Template_Tags" target="_blank">Template Tags</a></li>
+								<li><a href="https://codex.wordpress.org/Conditional_Tags" target="_blank">Conditional Tags</a> </li>
+							</ul>
+						</div>
+					</div>
+
+
+
 				</section>
 
 				<section data-markdown>
